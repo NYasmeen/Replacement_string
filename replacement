@@ -1,0 +1,18 @@
+function replace(word1,word2){
+B= A.split(" ")
+x=B.length;
+for(i=0; i<=x;i++)
+{
+  if (B[i]==word1){
+    B[i]=word2
+    
+    A=B.join(" ")
+
+    console.log(A)
+  }
+  
+};
+}
+
+A= "Hello World of T2S";
+replace("Hello","Hi");
